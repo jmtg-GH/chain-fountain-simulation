@@ -1,0 +1,5 @@
+# Librerías para cálculo numérico y vectorial
+numpy
+
+# Librerías para visualización y animación
+matplotlib
