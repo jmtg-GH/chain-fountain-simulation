@@ -45,5 +45,8 @@ def animar_simulacion(historial_posiciones):
     ani = animation.FuncAnimation(fig, update, frames=historial_posiciones,
                                   init_func=init, blit=True, interval=20)
 
-    plt.legend()
-    plt.show()
+    print("Guardando la animación en 'simulacion_cadena.gif'...")
+    # Nota: Pillow es necesario para guardar GIFs. Lo añadiremos a requirements.txt
+    ani.save('simulacion_cadena.gif', writer='pillow', fps=60)
+    print("¡Animación guardada con éxito!")
+    plt.close(fig) # Cerramos la figura para liberar memoria

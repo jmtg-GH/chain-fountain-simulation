@@ -5,8 +5,8 @@ Punto de entrada principal para ejecutar la simulación de la fuente de cadena.
 """
 
 # Importamos las funciones clave de nuestros otros módulos
-from simulation import inicializar_sistema, ejecutar_bucle_simulacion
-from visualization import animar_simulacion
+from .simulation import inicializar_sistema, ejecutar_bucle_simulacion
+from .visualization import animar_simulacion
 
 def main():
     """

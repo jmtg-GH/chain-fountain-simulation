@@ -3,3 +3,5 @@ numpy
 
 # Librerías para visualización y animación
 matplotlib
+
+Pillow
